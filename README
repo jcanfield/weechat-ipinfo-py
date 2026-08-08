@@ -20,7 +20,7 @@
 
 weechat-ipinfo-py is a Python-based script designed for the WeeChat IRC client to look up IP address information. It provides an inline utility for fetching details related to target IP addresses directly within the chat interface. By integrating with WeeChat's Python scripting environment, the script allows users to inspect IP data without leaving their active terminal session. This tool is built for WeeChat users, network administrators, and IRC participants who want fast access to network details inside their client buffer.
 
-NOTE: I wrote the code myself but did run it through an AI/LLM. I believe we should all be disclosing this information.
+NOTE: I wrote the code myself but did run it through an AI/LLM. I believe we should all be disclosing this information. README was generated with ReadmeBuddy.
 
 ## ✨ Key Features
 
@@ -71,9 +71,3 @@ Please follow the existing code style and include tests for new behavior where a
 This project is licensed under the **MIT** License.
 
 ---
-
-<div align="center">
-
-[![Made with ReadmeBuddy](https://img.shields.io/badge/Made%20with-ReadmeBuddy-8B5CFF?style=for-the-badge&logo=markdown&logoColor=white)](https://readmebuddy.com)
-
-</div>
