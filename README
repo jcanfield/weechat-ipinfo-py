@@ -1,0 +1,81 @@
+# weechat-ipinfo-py
+
+> WeeChat Python script for looking up IP address details.
+
+![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
+
+## 📑 Table of Contents
+
+- [weechat-ipinfo-py](#weechat-ipinfo-py)
+  - [📑 Table of Contents](#-table-of-contents)
+  - [📝 Description](#-description)
+  - [✨ Key Features](#-key-features)
+  - [🎯 Use Cases](#-use-cases)
+  - [⚡ Quick Start](#-quick-start)
+  - [📁 Project Structure](#-project-structure)
+  - [👥 Contributing](#-contributing)
+  - [📜 License](#-license)
+
+## 📝 Description
+
+weechat-ipinfo-py is a Python-based script designed for the WeeChat IRC client to look up IP address information. It provides an inline utility for fetching details related to target IP addresses directly within the chat interface. By integrating with WeeChat's Python scripting environment, the script allows users to inspect IP data without leaving their active terminal session. This tool is built for WeeChat users, network administrators, and IRC participants who want fast access to network details inside their client buffer.
+
+NOTE: I wrote the code myself but did run it through an AI/LLM. I believe we should all be disclosing this information.
+
+## ✨ Key Features
+
+- **💬 WeeChat Python Script Integration** — Integrates directly into the WeeChat IRC client using its native Python environment.
+- **🔍 IP Address Information Queries** — Retrieves network and metadata details for specified IP addresses.
+- **🖥️ Terminal Buffer Output Support** — Displays IP lookup results directly within active WeeChat chat windows.
+
+## 🎯 Use Cases
+
+- Checking IP address details directly inside WeeChat IRC buffers.
+- Investigating network connections during IRC channel moderation or administration.
+
+## ⚡ Quick Start
+
+```bash
+
+# 1. Clone the repository
+git clone <repository-url>
+
+# See the Development Setup section below
+```
+
+## 📁 Project Structure
+
+```
+weechat-ipinfo-py
+├── LICENSE
+├── README
+├── ipinfo.py
+└── testing_ipinfo.py
+```
+
+## 👥 Contributing
+
+Contributions are welcome! Here's the standard flow:
+
+1. **Fork** the repository
+2. **Clone** your fork: `git clone https://github.com/your-username/repo.git`
+3. **Branch**: `git checkout -b feature/your-feature`
+4. **Commit**: `git commit -m 'feat: add some feature'`
+5. **Push**: `git push origin feature/your-feature`
+6. **Open** a pull request
+
+Please follow the existing code style and include tests for new behavior where applicable.
+
+## 📜 License
+
+This project is licensed under the **MIT** License.
+
+---
+
+<div align="center">
+
+[![Made with ReadmeBuddy](https://img.shields.io/badge/Made%20with-ReadmeBuddy-8B5CFF?style=for-the-badge&logo=markdown&logoColor=white)](https://readmebuddy.com)
+
+<sub>Generate beautiful READMEs in seconds → <a href="https://readmebuddy.com">readmebuddy.com</a></sub>
+
+</div>
