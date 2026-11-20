@@ -18,3 +18,6 @@ git clone [https://github.com/](https://github.com/)<your-username>/weechat-ipin
 mkdir -p ~/.local/share/weechat/python
 cp weechat-ipinfo-py/ipinfo.py ~/.local/share/weechat/python/
 ```
+*NOTE*- This project was coded by a human who used AI/LLM to review code, etc
+
+'This project is tested with BrowserStack 💗
